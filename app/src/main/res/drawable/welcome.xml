@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="220dp"
+    android:height="220dp"
+    android:viewportWidth="220"
+    android:viewportHeight="220">
+
+    <!-- Dark background circle -->
+    <path
+        android:fillColor="#0E1218"
+        android:pathData="M110,10 A100,100 0 1,0 110,210 A100,100 0 1,0 110,10 Z" />
+
+    <!-- Glowing ring -->
+    <path
+        android:strokeColor="#7BD4FF"
+        android:strokeWidth="4"
+        android:fillColor="#00000000"
+        android:pathData="M110,25 A85,85 0 1,0 110,195 A85,85 0 1,0 110,25 Z" />
+
+    <!-- Inner violet circle -->
+    <path
+        android:fillColor="#3A2E6E"
+        android:pathData="M110,55 A55,55 0 1,0 110,165 A55,55 0 1,0 110,55 Z" />
+
+    <!-- Center glyph: "MZ" -->
+    <path
+        android:fillColor="#B4A7FF"
+        android:pathData="M75,150 L75,90 L90,90 L110,130 L130,90 L145,90 L145,150 L130,150 L130,115 L115,150 L105,150 L90,115 L90,150 Z" />
+</vector>
